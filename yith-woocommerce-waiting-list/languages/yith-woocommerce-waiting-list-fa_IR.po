@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Waiting List\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-01-23 14:19:25+00:00\n"
+"POT-Creation-Date: 2024-11-07 15:32:40+00:00\n"
 "PO-Revision-Date: 2018-05-16 15:15+0200\n"
 "Last-Translator: amir <tansu68@live.com>\n"
 "Language-Team: Mandegarweb Team <tansu68@live.com>\n"
@@ -165,16 +165,12 @@ msgid "There is %s user on the waitlist for this product."
 msgid_plural "There are %s users on the waitlist for this product"
 msgstr[0] "%s کاربر در فهرست انتظار این محصول قرار گرفته است"
 
-#: includes/class.yith-wcwtl-meta.php:207
+#: includes/class.yith-wcwtl-meta.php:208
 #, fuzzy
 msgid "There are no users on this waitlist"
 msgstr "هیچ کاربری در فهرست انتظار قرار نگرفته است"
 
-#: includes/class.yith-wcwtl-meta.php:233
-msgid "Send the email to the users"
-msgstr "ارسال ایمیل آگاهی‌رسان به کاربران"
-
-#: includes/class.yith-wcwtl-meta.php:274
+#: includes/class.yith-wcwtl-meta.php:251
 msgid "Email sent correctly."
 msgstr "ایمیل به‌درستی ارسال شد."
 
@@ -439,7 +435,7 @@ msgid "Enter an optional placeholder to show inside the input field."
 msgstr ""
 
 #: plugin-options/form/customization-options.php:65
-#: templates/yith-wcwtl-form.php:27
+#: templates/yith-wcwtl-form.php:30
 #, fuzzy
 msgid "Enter your email address"
 msgstr "آدرس ایمیل شما"
@@ -830,6 +826,9 @@ msgstr ""
 msgctxt "[EMAIL: In stock] Button label"
 msgid "Shop now"
 msgstr ""
+
+#~ msgid "Send the email to the users"
+#~ msgstr "ارسال ایمیل آگاهی‌رسان به کاربران"
 
 #~ msgid "You have already registered for this waiting list"
 #~ msgstr "در حال‌حاضر ایمیل شما به فهرست انتظار این محصول افزوده شده است"

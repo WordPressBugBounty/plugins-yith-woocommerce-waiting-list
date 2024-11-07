@@ -1,10 +1,10 @@
 === YITH WooCommerce Waitlist ===
 Contributors: yithemes
 Tags: waiting list, woocommerce waiting, waiting email list, out of stock, stock notification
-Requires at least: 6.4
-Tested up to: 6.6
+Requires at least: 6.5
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 2.19.0
+Stable tag: 2.20.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,12 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 3. Plugin frontend for guest user
 
 == Changelog ==
+
+= 2.20.0 = Released 07 November 2024
+
+* New: support for WordPress 6.7
+* New: support for WooCommerce 9.4
+* Update: YITH plugin framework
 
 = 2.19.0 = Released 16 September 2024
 
