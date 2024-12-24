@@ -3,17 +3,17 @@
  * Plugin Name: YITH WooCommerce Waitlist
  * Plugin URI: https://yithemes.com/themes/plugins/yith-woocommerce-waiting-list/
  * Description: The <code><strong>YITH WooCommerce Waiting List</strong></code> plugin allows your customers to request an email notification when an out-of-stock product comes back into stock. <a href="https://yithemes.com/" target="_blank">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.
- * Version: 2.20.0
+ * Version: 2.21.0
  * Author: YITH
  * Author URI: https://yithemes.com/
  * Text Domain: yith-woocommerce-waiting-list
  * Domain Path: /languages/
- * WC requires at least: 9.2
- * WC tested up to: 9.4
+ * WC requires at least: 9.3
+ * WC tested up to: 9.5
  *
  * @author  YITH <plugins@yithemes.com>
  * @package YITH WooCommerce Waiting List
- * @version 2.20.0
+ * @version 2.21.0
  */
 
 /*
@@ -74,7 +74,7 @@ if ( ! function_exists( 'yith_plugin_registration_hook' ) ) {
 register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
 if ( ! defined( 'YITH_WCWTL_VERSION' ) ) {
-	define( 'YITH_WCWTL_VERSION', '2.20.0' );
+	define( 'YITH_WCWTL_VERSION', '2.21.0' );
 }
 
 if ( ! defined( 'YITH_WCWTL_FREE_INIT' ) ) {
@@ -130,11 +130,10 @@ if ( ! defined( 'YITH_WCWTL_META_USER' ) ) {
 	define( 'YITH_WCWTL_META_USER', '_yith_wcwtl_products_list' );
 }
 
-/* Plugin Framework Version Check */
-if ( ! function_exists( 'yit_maybe_plugin_fw_loader' ) && file_exists( YITH_WCWTL_DIR . 'plugin-fw/init.php' ) ) {
-	require_once YITH_WCWTL_DIR . 'plugin-fw/init.php';
+// Plugin Framework Loader.
+if ( file_exists( plugin_dir_path( __FILE__ ) . 'plugin-fw/init.php' ) ) {
+    require_once plugin_dir_path( __FILE__ ) . 'plugin-fw/init.php';
 }
-yit_maybe_plugin_fw_loader( YITH_WCWTL_DIR );
 
 /**
  * Init the plugin
@@ -143,8 +142,12 @@ yit_maybe_plugin_fw_loader( YITH_WCWTL_DIR );
  * @return void
  */
 function yith_wcwtl_init() {
-
-	load_plugin_textdomain( 'yith-woocommerce-waiting-list', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+    /**
+     * Load text domain
+     */
+    if ( function_exists( 'yith_plugin_fw_load_plugin_textdomain' ) ) {
+        yith_plugin_fw_load_plugin_textdomain( 'yith-woocommerce-waiting-list', basename( dirname( __FILE__ ) ) . '/languages' );
+    }
 
 	// Load required classes and functions.
 	require_once 'includes/function.yith-wcwtl.php';

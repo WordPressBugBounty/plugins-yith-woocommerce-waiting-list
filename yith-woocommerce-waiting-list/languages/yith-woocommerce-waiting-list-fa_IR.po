@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Waiting List\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-11-07 15:32:40+00:00\n"
+"POT-Creation-Date: 2024-12-24 10:42:04+00:00\n"
 "PO-Revision-Date: 2018-05-16 15:15+0200\n"
 "Last-Translator: amir <tansu68@live.com>\n"
 "Language-Team: Mandegarweb Team <tansu68@live.com>\n"
@@ -13,11 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.7\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
-"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
-"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
-"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
-"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-KeywordsList: "
+"_:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Loco-Target-Locale: fa_IR\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -190,19 +187,19 @@ msgid ""
 "example, both Administrators and Shop Managers can access your email address."
 msgstr ""
 
-#: includes/class.yith-wcwtl.php:308 includes/class.yith-wcwtl.php:345
-#: includes/class.yith-wcwtl.php:372
+#: includes/class.yith-wcwtl.php:288 includes/class.yith-wcwtl.php:325
+#: includes/class.yith-wcwtl.php:352
 #, fuzzy
 msgid "Waitlist Data"
 msgstr "فهرست انتظار"
 
-#: includes/class.yith-wcwtl.php:349
+#: includes/class.yith-wcwtl.php:329
 #, fuzzy
 msgid "Waitlist Subscriptions"
 msgstr "فهرست انتظار"
 
 #. translators: %s stands for product name.
-#: includes/class.yith-wcwtl.php:410
+#: includes/class.yith-wcwtl.php:390
 msgid "Removed customer from the waitlist for \"%s\"."
 msgstr ""
 

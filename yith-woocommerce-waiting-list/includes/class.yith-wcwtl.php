@@ -68,9 +68,6 @@ if ( ! class_exists( 'YITH_WCWTL' ) ) {
 			$this->init_plugin_emails_array();
 			$this->load_requested();
 
-			// Load Plugin Framework.
-			add_action( 'after_setup_theme', array( $this, 'plugin_fw_loader' ), 1 );
-
 			// Email actions.
 			add_filter( 'woocommerce_email_classes', array( $this, 'add_woocommerce_emails' ) );
 			add_action( 'woocommerce_init', array( $this, 'load_wc_mailer' ) );
@@ -174,23 +171,6 @@ if ( ! class_exists( 'YITH_WCWTL' ) ) {
 		 */
 		public function get_emails() {
 			return $this->emails;
-		}
-
-		/**
-		 * Load Plugin Framework
-		 *
-		 * @return void
-		 * @since  1.0
-		 * @access public
-		 */
-		public function plugin_fw_loader() {
-			if ( ! defined( 'YIT_CORE_PLUGIN' ) ) {
-				global $plugin_fw_data;
-				if ( ! empty( $plugin_fw_data ) ) {
-					$plugin_fw_file = array_shift( $plugin_fw_data );
-					require_once $plugin_fw_file;
-				}
-			}
 		}
 
 		/**

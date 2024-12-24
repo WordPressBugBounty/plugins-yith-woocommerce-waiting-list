@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the YITH WooCommerce Waitlist package.
 msgid ""
 msgstr ""
-"Project-Id-Version: YITH WooCommerce Waitlist 2.20.0\n"
+"Project-Id-Version: YITH WooCommerce Waitlist 2.21.0\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-11-07 15:32:40+00:00\n"
+"POT-Creation-Date: 2024-12-24 10:42:04+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -185,16 +185,16 @@ msgid ""
 "address."
 msgstr ""
 
-#: includes/class.yith-wcwtl.php:308 includes/class.yith-wcwtl.php:345
-#: includes/class.yith-wcwtl.php:372
+#: includes/class.yith-wcwtl.php:288 includes/class.yith-wcwtl.php:325
+#: includes/class.yith-wcwtl.php:352
 msgid "Waitlist Data"
 msgstr ""
 
-#: includes/class.yith-wcwtl.php:349
+#: includes/class.yith-wcwtl.php:329
 msgid "Waitlist Subscriptions"
 msgstr ""
 
-#: includes/class.yith-wcwtl.php:410
+#: includes/class.yith-wcwtl.php:390
 #. translators: %s stands for product name.
 msgid "Removed customer from the waitlist for \"%s\"."
 msgstr ""

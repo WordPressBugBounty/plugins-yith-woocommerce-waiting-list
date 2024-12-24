@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Waiting List\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-11-07 15:32:40+00:00\n"
+"POT-Creation-Date: 2024-12-24 10:42:04+00:00\n"
 "PO-Revision-Date: 2018-05-16 15:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
@@ -11,9 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.7\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
-"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
-"_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: "
+"_;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -193,19 +192,19 @@ msgid ""
 "example, both Administrators and Shop Managers can access your email address."
 msgstr ""
 
-#: includes/class.yith-wcwtl.php:308 includes/class.yith-wcwtl.php:345
-#: includes/class.yith-wcwtl.php:372
+#: includes/class.yith-wcwtl.php:288 includes/class.yith-wcwtl.php:325
+#: includes/class.yith-wcwtl.php:352
 #, fuzzy
 msgid "Waitlist Data"
 msgstr "Waiting List"
 
-#: includes/class.yith-wcwtl.php:349
+#: includes/class.yith-wcwtl.php:329
 #, fuzzy
 msgid "Waitlist Subscriptions"
 msgstr "Email di iscrizione di YITH Waiting list"
 
 #. translators: %s stands for product name.
-#: includes/class.yith-wcwtl.php:410
+#: includes/class.yith-wcwtl.php:390
 msgid "Removed customer from the waitlist for \"%s\"."
 msgstr ""
 
