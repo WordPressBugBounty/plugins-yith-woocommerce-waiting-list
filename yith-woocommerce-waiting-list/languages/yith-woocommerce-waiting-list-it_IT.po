@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Waiting List\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-12-24 10:42:04+00:00\n"
+"POT-Creation-Date: 2025-02-17 15:56:20+00:00\n"
 "PO-Revision-Date: 2018-05-16 15:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
@@ -379,7 +379,7 @@ msgstr ""
 msgid "The user email"
 msgstr "Mantieni la lista dopo l'email"
 
-#: init.php:52
+#: init.php:53
 #, fuzzy
 msgid ""
 "YITH WooCommerce Waitlist is enabled but not effective. It requires "
@@ -388,7 +388,7 @@ msgstr ""
 "YITH WooCommerce Waiting List è attivo ma non operativo. Il suo "
 "funzionamento richiede WooCommerce."
 
-#: init.php:66
+#: init.php:67
 msgid ""
 "You can't activate the free version of YITH WooCommerce Waitlist while you "
 "are using the premium one."

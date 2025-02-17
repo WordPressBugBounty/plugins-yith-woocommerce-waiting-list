@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the YITH WooCommerce Waitlist package.
 msgid ""
 msgstr ""
-"Project-Id-Version: YITH WooCommerce Waitlist 2.22.0\n"
+"Project-Id-Version: YITH WooCommerce Waitlist 2.23.0\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2025-01-23 16:46:35+00:00\n"
+"POT-Creation-Date: 2025-02-17 15:56:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -351,13 +351,13 @@ msgstr ""
 msgid "The user email"
 msgstr ""
 
-#: init.php:52
+#: init.php:53
 msgid ""
 "YITH WooCommerce Waitlist is enabled but not effective. It requires "
 "WooCommerce in order to work."
 msgstr ""
 
-#: init.php:66
+#: init.php:67
 msgid ""
 "You can't activate the free version of YITH WooCommerce Waitlist while you "
 "are using the premium one."
