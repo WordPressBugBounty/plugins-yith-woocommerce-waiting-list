@@ -3,18 +3,18 @@
  * Plugin Name: YITH WooCommerce Waitlist
  * Plugin URI: https://yithemes.com/themes/plugins/yith-woocommerce-waiting-list/
  * Description: The <code><strong>YITH WooCommerce Waiting List</strong></code> plugin allows your customers to request an email notification when an out-of-stock product comes back into stock. <a href="https://yithemes.com/" target="_blank">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.
- * Version: 2.23.0
+ * Version: 2.24.0
  * Author: YITH
  * Author URI: https://yithemes.com/
  * Text Domain: yith-woocommerce-waiting-list
  * Domain Path: /languages/
- * WC requires at least: 9.5
- * WC tested up to: 9.7
+ * WC requires at least: 9.6
+ * WC tested up to: 9.8
  * Requires Plugins: woocommerce
  *
  * @author  YITH <plugins@yithemes.com>
  * @package YITH WooCommerce Waiting List
- * @version 2.23.0
+ * @version 2.24.0
  */
 
 /*
@@ -75,7 +75,7 @@ if ( ! function_exists( 'yith_plugin_registration_hook' ) ) {
 register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
 if ( ! defined( 'YITH_WCWTL_VERSION' ) ) {
-	define( 'YITH_WCWTL_VERSION', '2.23.0' );
+	define( 'YITH_WCWTL_VERSION', '2.24.0' );
 }
 
 if ( ! defined( 'YITH_WCWTL_FREE_INIT' ) ) {
