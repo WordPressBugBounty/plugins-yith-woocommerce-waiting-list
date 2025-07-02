@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Waiting List\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2025-02-17 15:56:20+00:00\n"
+"POT-Creation-Date: 2025-07-02 13:33:53+00:00\n"
 "PO-Revision-Date: 2018-05-16 15:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
@@ -519,6 +519,37 @@ msgid ""
 "product is available."
 msgstr ""
 
+#: plugin-options/form/customization-options.php:230
+msgid "Removal message"
+msgstr "Messaggio eliminazione"
+
+#: plugin-options/form/customization-options.php:234
+#, fuzzy
+msgid "You have been removed from this product's waitlist."
+msgstr "Sei stato rimosso dalla lista di attesa di questo prodotto."
+
+#: plugin-options/form/customization-options.php:244
+msgid "Error message for users that are already subscribed"
+msgstr ""
+
+#: plugin-options/form/customization-options.php:248
+#, fuzzy
+msgid "This email address is already subscribed to this waitlist."
+msgstr "Non ci sono utenti in questa lista di attesa"
+
+#: plugin-options/form/customization-options.php:253
+msgid "Error message"
+msgstr "Messaggio di errore"
+
+#: plugin-options/form/customization-options.php:257
+#, fuzzy
+msgid ""
+"An error has occurred or you're already subscribed to this waitlist. Please "
+"try again."
+msgstr ""
+"Si è verificato un errore oppure sei già registrato a questa lista di "
+"attesa. Per favore riprova."
+
 #. translators: Title for options section in Waiting List -> Form in Product
 #. Page -> Options
 #: plugin-options/form/settings-options.php:17
@@ -986,30 +1017,14 @@ msgstr ""
 #~ msgid "You have been added to the waiting list of this product."
 #~ msgstr "Sei stato aggiunto alla lista di attesa di questo prodotto."
 
-#~ msgid "Removal message"
-#~ msgstr "Messaggio eliminazione"
-
 #~ msgid "Message for successful removal from the waiting list."
 #~ msgstr ""
 #~ "Messaggio per la rimozione dalla lista di attesa avvenuta con successo."
-
-#~ msgid "You have been removed from the waiting list of this product."
-#~ msgstr "Sei stato rimosso dalla lista di attesa di questo prodotto."
-
-#~ msgid "Error message"
-#~ msgstr "Messaggio di errore"
 
 #~ msgid "Error message showed when a user try to subscribe to a waiting list."
 #~ msgstr ""
 #~ "Messaggio di errore mostrato quando un utente prova ad iscriversi ad una "
 #~ "lista di attesa."
-
-#~ msgid ""
-#~ "An error has occurred or you're already register in this waiting list. "
-#~ "Please try again."
-#~ msgstr ""
-#~ "Si è verificato un errore oppure sei già registrato a questa lista di "
-#~ "attesa. Per favore riprova."
 
 #~ msgid ""
 #~ "When a status product is set back as 'In-stock', this option sends an "

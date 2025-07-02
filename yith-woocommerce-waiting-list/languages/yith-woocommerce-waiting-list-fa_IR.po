@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Waiting List\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2025-02-17 15:56:20+00:00\n"
+"POT-Creation-Date: 2025-07-02 13:33:53+00:00\n"
 "PO-Revision-Date: 2018-05-16 15:15+0200\n"
 "Last-Translator: amir <tansu68@live.com>\n"
 "Language-Team: Mandegarweb Team <tansu68@live.com>\n"
@@ -501,6 +501,36 @@ msgid ""
 "product is available."
 msgstr ""
 
+#: plugin-options/form/customization-options.php:230
+msgid "Removal message"
+msgstr ""
+
+#: plugin-options/form/customization-options.php:234
+#, fuzzy
+msgid "You have been removed from this product's waitlist."
+msgstr "ایمیل شما از فهرست انتظار موجود شدن این محصول پاک شد"
+
+#: plugin-options/form/customization-options.php:244
+msgid "Error message for users that are already subscribed"
+msgstr ""
+
+#: plugin-options/form/customization-options.php:248
+#, fuzzy
+msgid "This email address is already subscribed to this waitlist."
+msgstr "هیچ کاربری در فهرست انتظار قرار نگرفته است"
+
+#: plugin-options/form/customization-options.php:253
+#, fuzzy
+msgid "Error message"
+msgstr "پیام نام‌نویسی موفقیت‌آمیز"
+
+#: plugin-options/form/customization-options.php:257
+#, fuzzy
+msgid ""
+"An error has occurred or you're already subscribed to this waitlist. Please "
+"try again."
+msgstr "مشکلی بوجود آمده است، خواهشمندیم دوباره تلاش کنید."
+
 #. translators: Title for options section in Waiting List -> Form in Product
 #. Page -> Options
 #: plugin-options/form/settings-options.php:17
@@ -829,12 +859,6 @@ msgstr ""
 
 #~ msgid "You have already registered for this waiting list"
 #~ msgstr "در حال‌حاضر ایمیل شما به فهرست انتظار این محصول افزوده شده است"
-
-#~ msgid "You have been removed from the waiting list for this product"
-#~ msgstr "ایمیل شما از فهرست انتظار موجود شدن این محصول پاک شد"
-
-#~ msgid "An error has occurred. Please try again."
-#~ msgstr "مشکلی بوجود آمده است، خواهشمندیم دوباره تلاش کنید."
 
 #~ msgid "An error has occurred, please try again."
 #~ msgstr "مشکلی بوجود آمده است، خواهشمندیم دوباره تلاش کنید."

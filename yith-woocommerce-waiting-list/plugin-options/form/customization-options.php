@@ -20,7 +20,7 @@ $tab = array(
 			'id'    => 'yith-wcwtl-customization-options-title',
 		),
 
-		'section-background'                     => array(
+		'section-background' => array(
 			'id'        => 'yith-wcwtl-section-background',
 			'title'     => __( 'Section background', 'yith-woocommerce-waiting-list' ),
 			'desc'      => __(
@@ -32,7 +32,7 @@ $tab = array(
 			'default'   => '#f9f9f9',
 		),
 
-		'waiting-list-message'                   => array(
+		'waiting-list-message' => array(
 			'id'        => 'yith-wcwtl-form-message',
 			'title'     => __( 'Notice to show in out-of-stock products', 'yith-woocommerce-waiting-list' ),
 			'desc'      => __(
@@ -53,7 +53,7 @@ $tab = array(
 			),
 		),
 
-		'form-placeholder'                       => array(
+		'form-placeholder' => array(
 			'id'        => 'yith-wcwtl-form-placeholder',
 			'title'     => __( 'Form placeholder', 'yith-woocommerce-waiting-list' ),
 			'desc'      => __(
@@ -65,7 +65,7 @@ $tab = array(
 			'default'   => __( 'Enter your email address', 'yith-woocommerce-waiting-list' ),
 		),
 
-		'waiting-list-button-add'                => array(
+		'waiting-list-button-add' => array(
 			'id'        => 'yith-wcwtl-button-add-label',
 			'title'     => __( 'Button Label', 'yith-woocommerce-waiting-list' ),
 			'desc'      => __( 'Enter the button label.', 'yith-woocommerce-waiting-list' ),
@@ -74,7 +74,7 @@ $tab = array(
 			'default'   => __( 'Add to waitlist', 'yith-woocommerce-waiting-list' ),
 		),
 
-		'waiting-list-button-colors'             => array(
+		'waiting-list-button-colors' => array(
 			'id'           => 'yith-wcwtl-button-colors',
 			'title'        => __( 'Button colors', 'yith-woocommerce-waiting-list' ),
 			'desc'         => __( 'Set the color for the waitlist button.', 'yith-woocommerce-waiting-list' ),
@@ -128,7 +128,7 @@ $tab = array(
 			),
 		),
 
-		'enable-leave-button'                    => array(
+		'enable-leave-button' => array(
 			'id'        => 'yith-wcwtl-enable-button-leave',
 			'title'     => __( 'Show removal button', 'yith-woocommerce-waiting-list' ),
 			'desc'      => __(
@@ -140,7 +140,7 @@ $tab = array(
 			'default'   => 'yes',
 		),
 
-		'waiting-list-button-leave'              => array(
+		'waiting-list-button-leave' => array(
 			'id'        => 'yith-wcwtl-button-leave-label',
 			'title'     => __( 'Removal button label', 'yith-woocommerce-waiting-list' ),
 			'desc'      => __( 'Enter the removal button label.', 'yith-woocommerce-waiting-list' ),
@@ -154,7 +154,7 @@ $tab = array(
 			),
 		),
 
-		'waiting-list-button-leave-colors'       => array(
+		'waiting-list-button-leave-colors' => array(
 			'id'           => 'yith-wcwtl-button-leave-colors',
 			'title'        => __( 'Removal button colors', 'yith-woocommerce-waiting-list' ),
 			'desc'         => __( 'Set the color for the waitlist button.', 'yith-woocommerce-waiting-list' ),
@@ -213,7 +213,7 @@ $tab = array(
 			),
 		),
 
-		'subscription-message'                   => array(
+		'subscription-message' => array(
 			'id'        => 'yith-wcwtl-button-success-msg',
 			'title'     => __( 'Subscription message', 'yith-woocommerce-waiting-list' ),
 			'type'      => 'yith-field',
@@ -225,7 +225,39 @@ $tab = array(
 			),
 		),
 
-		'yith-wcwtl-general-options'             => array(
+		'leave-message' => array(
+			'id'        => 'yith-wcwtl-leave-message',
+			'title'     => __( 'Removal message', 'yith-woocommerce-waiting-list' ),
+			'type'      => 'yith-field',
+			'yith-type' => 'text',
+			'class'     => 'yithfullwidth',
+			'default'   => __( "You have been removed from this product's waitlist.", 'yith-woocommerce-waiting-list' ),
+			'deps'      => array(
+				'id'    => 'yith-wcwtl-enable-button-leave',
+				'value' => 'yes',
+				'type'  => 'hide',
+			),
+		),
+
+		'waiting-list-error-msg-user-already-subscribed' => array(
+			'id'        => 'yith-wcwtl-button-error-msg-for-user-already-subscribed',
+			'title'     => __( 'Error message for users that are already subscribed', 'yith-woocommerce-waiting-list' ),
+			'type'      => 'yith-field',
+			'yith-type' => 'text',
+			'class'     => 'yithfullwidth',
+			'default'   => __( 'This email address is already subscribed to this waitlist.', 'yith-woocommerce-waiting-list' ),
+		),
+
+		'waiting-list-error-msg' => array(
+			'id'        => 'yith-wcwtl-button-error-msg',
+			'title'     => __( 'Error message', 'yith-woocommerce-waiting-list' ),
+			'type'      => 'yith-field',
+			'yith-type' => 'text',
+			'class'     => 'yithfullwidth',
+			'default'   => __( "An error has occurred or you're already subscribed to this waitlist. Please try again.", 'yith-woocommerce-waiting-list' ),
+		),
+
+		'yith-wcwtl-general-options' => array(
 			'type' => 'sectionend',
 			'id'   => 'yith-wcwtl-general-options-end',
 		),

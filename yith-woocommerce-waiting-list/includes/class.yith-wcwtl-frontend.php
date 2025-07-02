@@ -495,7 +495,7 @@ if ( ! class_exists( 'YITH_WCWTL_Frontend' ) ) {
 						$type = 'error';
 					}
 				} elseif ( 'leave' === $action && yith_waitlist_unregister_user( $user_email, $product ) ) {
-					$msg  = get_option( 'yith-wcwtl-button-leave-msg' );
+					$msg  = get_option( 'yith-wcwtl-leave-message' );
 					$type = 'success';
 				} else {
 					$msg  = get_option( 'yith-wcwtl-button-error-msg' );
