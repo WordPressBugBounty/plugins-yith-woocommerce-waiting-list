@@ -86,6 +86,10 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
+= 2.28.0 = Released 06 August 2025
+
+* New: support for WooCommerce 10.1
+
 = 2.27.0 = Released 02 July 2025
 
 * New: support for WooCommerce 10.0
