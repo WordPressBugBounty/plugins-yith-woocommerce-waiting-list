@@ -4,7 +4,7 @@ Tags: waiting list, woocommerce waiting, waiting email list, out of stock, stock
 Requires at least: 6.7
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 2.32.0
+Stable tag: 2.33.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,10 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 3. Plugin frontend for guest user
 
 == Changelog ==
+
+= 2.33.0 - Released on 26 February 2026 =
+* New: support for WooCommerce 10.6
+* Update: YITH plugin framework
 
 = 2.32.0 - Released on 13 January 2026 =
 * New: support for WooCommerce 10.5
