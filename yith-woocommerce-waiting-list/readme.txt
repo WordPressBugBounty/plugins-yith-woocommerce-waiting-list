@@ -4,7 +4,7 @@ Tags: waiting list, woocommerce waiting, waiting email list, out of stock, stock
 Requires at least: 6.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.38.0
+Stable tag: 2.39.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,9 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 3. Plugin frontend for guest user
 
 == Changelog ==
+
+= 2.39.0 - Released on 31 August 2026 =
+* New: support for WooCommerce 11.1
 
 = 2.38.0 - Released on 11 August 2026 =
 * New: support for WordPress 7.1
